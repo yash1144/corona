@@ -1,0 +1,123 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container Styling */
+.stats-container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+}
+
+/* Title Styling */
+.header-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Button Group Styling */
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.primary-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+}
+
+/* Search Section Styling */
+.search-section {
+    margin-bottom: 30px;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 30px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.secondary-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.secondary-button:hover {
+    background-color: #218838;
+}
+
+/* Data Card Styling */
+.data-card {
+    background-color: #f8f9fa;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.data-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .stats-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .primary-button,
+    .secondary-button {
+        width: 100px;
+    }
+
+    .input-box {
+        width: 50%;
+    }
+
+    .header-title {
+        font-size: 24px;
+    }
+}
